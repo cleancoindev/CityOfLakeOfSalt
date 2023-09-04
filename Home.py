@@ -3,10 +3,10 @@ import streamlit as st
 from PIL import Image
 
 # Confit
-st.set_page_config(page_title='7 Mountain Trust Cross Chain Monitoring Tool', page_icon=':bar_chart:', layout='wide')
+st.set_page_config(page_title='Lake City of Salt Bonding Service Demo Page', page_icon=':bar_chart:', layout='wide')
 
 # Title
-st.title('7 Mountain Trust Cross Chain Monitoring Tool')
+st.title('Lake City of Salt Bonding Service Demo Page')
 
 # Content
 c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14 = st.columns(14)
@@ -27,7 +27,7 @@ c14.image(Image.open('images/axelar-logo.png'))
 
 st.write(
     """
-    Seven Mountain Trust Analytics Tool for Users is here for your viewing needs and pleasure.
+    Lake City of Salt Bonding Service Demo Page is here for your viewing needs and pleasure.
 
     The crypto industry continues to progress and its development has never stopped. Contributors
     of each blockchain keep developing each segment of the industry and the whole crypto ecosystem.
@@ -48,28 +48,13 @@ st.write(
 st.subheader('Methodology')
 st.write(
     """
-    The data for this cross-chain comparison were selected via
-    data platform by using its **REST API**. These queries are currently set to **re-run every 24 hours** to cover the latest
-    data and are imported as a JSON file directly to each page. The data were selected with a **1 day delay** for all
-    blockchains to be in sync with one another.
-
-    It is worth mentioning that a considerable portion of the data used for this tool was manually decoded from the raw
-    transaction data on some of the blockchains. Besides that, the names of addresses, DEXs, collections, etc. are also
-    manually labeled. As the queries are updated on a daily basis to cover the most recent data, there is a chance
-    that viewers encounter inconsistent data through the app. Due to the heavy computational power required to execute
-    the queries, and also the size of the raw data being too large, it was not feasible to cover data for a longer period,
-    or by downloading the data and loading it from the repository itself. Therefore, the REST API was selected as the
-    proper form of loading data for the time being.
+This site is a demo of a bonding protocol proposal for the city of lake salt.
     """
 )
 
 st.subheader('Future Works')
 st.write(
     """
-    This tool is a work in progress and will continue to be developed moving forward. Adding other blockchains,
-    more KPIs and metrics, optimizing the code in general, enhancing the UI/UX of the tool, and more importantly,
-    improving the data pipeline by utilizing [**Flipside ShroomDK**](https://sdk.flipsidecrypto.xyz/shroomdk) are
-    among the top priorities for the development of this app. Feel free to share your feedback, suggestions, and
-    also critics with me.
+    This tool is a work in progress and will continue to be developed moving forward. 
     """
 )
