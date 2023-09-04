@@ -16,5 +16,5 @@ components.html(
 ></iframe>
     """,
     height=600,
-    width=600
+    width=600,
 )
